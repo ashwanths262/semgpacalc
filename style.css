@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 { text-align: center; color: #333; }
+
+.course-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input.course-name { flex: 2; }
+input.credits { flex: 1; }
+select.grade { flex: 1; }
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover { background-color: #0056b3; }
+#add-course-btn { background-color: #28a745; }
+#add-course-btn:hover { background-color: #218838; }
+
+.result-section {
+    margin-top: 20px;
+    text-align: center;
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
